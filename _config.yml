@@ -1,0 +1,31 @@
+
+auto: true
+tagline: "TwoSix Financial for Your Unique Needs"
+image: /assets/images/logo.png
+
+navigation: {
+	0: {
+		title: "Products & Services",
+		weight: 0,
+		dropdown: {
+			0: {
+				title: 'Debit / Credit Card',
+				path: '/products-and-services/debit-credit-card.html'
+			},
+			1: {
+				title: 'Check Acceptance',
+				path: '/products-and-services/check-acceptance.html'
+			}
+		}
+	},
+	1: {
+		title: 'About Us',
+		weight: 1,
+		path: '/about_us.html'
+	},
+	2: {
+		title: 'Contact',
+		weight: 2,
+		path: '#'
+	}
+}
